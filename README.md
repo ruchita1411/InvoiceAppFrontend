@@ -10,3 +10,8 @@ This project was completed as part of the technical assessment for Thinkbridge. 
 ### Technical Notes & Challenges
 *   **Data Integration:** While the Swagger API is functional locally, the deployed frontend currently shows an empty state. This is because the frontend is configured to fetch from the backend service, which isn't live currently.
 *   **Mock Data Strategy:** I implemented mock JSON data in the backend to verify the API logic locally, ensuring the "business logic" was sound even without a persistent DB.
+
+### How to Run Locally
+1. Clone the repository.
+2. Run `npm install` (or your specific command).
+3. Execute `npm start` to view the frontend and API endpoints.
